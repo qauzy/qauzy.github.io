@@ -33,51 +33,38 @@
       </section>
     </div>
 
+
       <div class="footer-container">
-          <div class="footer-column">
-              <ul>
-                  <li>1. Please select the size you need on the page</li>
-              </ul>
-          </div>
-          <div class="footer-column">
-              <ul>
-                  <li>2. Please fill in the style number you need when paying</li>
-              </ul>
-          </div>
-          <div class="footer-column">
-              <ul>
-                  <li>3. We will send the delivery photos on WhatsApp</li>
-              </ul>
-          </div>
-          <div class="footer-column">
-              <ul>
-                  <li>4. Please follow my WhatsApp channel, our latest styles will be released in the channel. Follow and send a screenshot to me and I will give you a free tool kit</li>
-              </ul>
-          </div>
+          <ul class="footer-list">
+              <li>1. Please select the size you need on the page</li>
+              <li>2. Please fill in the style number you need when paying</li>
+              <li>3. We will send the delivery photos on WhatsApp</li>
+              <li>4. Please follow my WhatsApp channel, our latest styles will be released in the channel. Follow and send a screenshot to me and I will give you a free tool kit</li>
+          </ul>
       </div>
   </div>
 </div>
 <style>
     .footer-container {
         display: flex;
-        justify-content: center; /* 居中对齐 */
-        align-items: center;
-        text-align: center;
+        flex-direction: column; /* 竖向排列 */
+        justify-content: center; /* 垂直居中 */
+        align-items: center; /* 水平居中 */
+        text-align: center; /* 文字居中 */
         padding: 20px;
         background-color: #f8f8f8;
         border-radius: 10px;
         margin-top: 30px;
+        width: 100%;
     }
-    .footer-content {
-        max-width: 600px; /* 限制最大宽度 */
-    }
-    .footer-content ul {
+    .footer-list {
         list-style: none;
         padding: 0;
+        max-width: 600px;
     }
-    .footer-content li {
-        margin-bottom: 10px;
-        font-size: 25px;
+    .footer-list li {
+        margin-bottom: 15px;
+        font-size: 16px;
         line-height: 1.5;
     }
 </style>
