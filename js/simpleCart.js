@@ -87,7 +87,7 @@
 
 				// default options
 				settings = {
-					checkout				: { type: "PayPal", email: "you@yours.com" },
+					checkout				: { type: "PayPal", email: "279277203qq.com" },
 					currency				: "USD",
 					language				: "english-us",
 
