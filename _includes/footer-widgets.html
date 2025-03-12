@@ -33,23 +33,43 @@
       </section>
     </div>
 
-      <div class="footer-widget-2">
-          <section class="widget editable">
-              <ul class="menu">
-                  <li class="menu-item">1. Please select the size you need on the page</li>
-                  <li class="menu-item">2. Please fill in the style number you need when paying</li>
+      <div class="footer-container">
+          <div class="footer-column">
+              <ul>
+                  <li>1. Please select the size you need on the page</li>
+                  <li>2. Please fill in the style number you need when paying</li>
               </ul>
-          </section>
-      </div>
-
-      <div class="footer-widget-3">
-          <section class="widget editable">
-              <ul class="menu">
-                  <li class="menu-item">3. We will send the delivery photos on WhatsApp</li>
-                  <li class="menu-item">4. Please follow my WhatsApp channel, our latest styles will be released in the channel. Follow and send a screenshot to me and I will give you a free tool kit</li>
+          </div>
+          <div class="footer-column">
+              <ul>
+                  <li>3. We will send the delivery photos on WhatsApp</li>
+                  <li>4. Please follow my WhatsApp channel, our latest styles will be released in the channel. Follow and send a screenshot to me and I will give you a free tool kit</li>
               </ul>
-          </section>
+          </div>
       </div>
-
   </div>
 </div>
+<style>
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .footer-column {
+        width: 48%;
+        min-width: 250px;
+    }
+    .footer-column ul {
+        list-style: none;
+        padding: 0;
+    }
+    .footer-column li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+</style>
