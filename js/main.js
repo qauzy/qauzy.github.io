@@ -5,8 +5,8 @@ simpleCart({
     email: "279277203@qq.com",
   },
 
-  // tax: 0.075,
-  // currency: "THB",
+  tax: 0.0,
+  currency: "USD",
 
   cartStyle: "table",
 
