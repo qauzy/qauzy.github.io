@@ -9,16 +9,12 @@ sizes:
   - XL
 styles:
   - name: Black
-    color: '#000000'
     image_path: /images/products/deer/black.jpg
   - name: Blue
-    color: '#39589e'
     image_path: /images/products/deer/blue.jpg
   - name: Clay
-    color: '#9c5145'
     image_path: /images/products/deer/clay.jpg
   - name: Cream
-    color: '#dfd3c2'
     image_path: /images/products/deer/cream.jpg
 featured_image_path: /images/products/deer/black.jpg
 facebook_image_path:
