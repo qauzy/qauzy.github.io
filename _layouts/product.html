@@ -26,7 +26,7 @@ layout: default
         	<div class="style-picker">
             <p class="margin-bottom-0">Color:</p>
             {% for style in page.styles %}
-              <div id="product-{{ forloop.index }}"{% if forloop.first %} class="item_color"{% endif %} style="background-color: {{ style.color }}"><span class="display-none">{{ style.name }}</span></div>
+              <div id="product-{{ forloop.index }}"{% if forloop.first %} class="item_color"{% endif %} style="background-color: {{ style.color }}"><span >{{ style.name }}</span></div>
             {% endfor %}
         	</div>
 
